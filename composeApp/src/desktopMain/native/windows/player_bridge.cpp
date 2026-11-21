@@ -1794,8 +1794,8 @@ private:
                 setMpvOptionStringLocked("scale", "spline36");
                 setMpvOptionStringLocked("cscale", "spline36");
             }
-            setMpvOptionStringLocked("demuxer-max-bytes", "150MiB");
-            setMpvOptionStringLocked("demuxer-max-back-bytes", "50MiB");
+            setMpvOptionStringLocked("demuxer-max-bytes", "3072MiB");
+            setMpvOptionStringLocked("demuxer-max-back-bytes", "500MiB");
             setMpvOptionStringLocked("demuxer-seekable-cache", "yes");
             setMpvOptionStringLocked(
                 "stream-lavf-o",
